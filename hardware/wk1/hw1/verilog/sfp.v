@@ -2,7 +2,7 @@
 // Please do not spread this code without permission 
 module sfp (out, in, thres, acc, relu, clk, reset);
 
-parameter bw = 4;
+parameter bw = 8;
 parameter psum_bw = 16;
 
 input clk;
